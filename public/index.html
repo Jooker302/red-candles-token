@@ -8,9 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <!-- site metas -->
-<title>Digitco</title>
+<title>Red Candles</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Red Candles on DxSale">
 <meta name="author" content="">
 <!-- bootstrap css -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,47 +19,55 @@
 <!-- Responsive-->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- fevicon -->
-<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<link rel="icon" href="main.jpeg" type="image/gif" />
 <!-- Scrollbar Custom CSS -->
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
 <!-- Tweaks for older IEs-->
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
-<body class="main-layout">
+<body class="main-layout bg-[#0F203C]">
 
   <div id="root"></div>
 <!-- loader  -->
-<div class="loader_bg">
+<!-- <div class="loader_bg">
   <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-</div>
+</div> -->
 <!-- end loader --> 
 <!-- header -->
 <header> 
   <!-- header inner -->
-  <div class="head-top">
+  <div class="head-top bg-[#E3384A]">
     <div class="container">
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
           <div class="email"> <a href="#">Email : demo@gmail.com</a> </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-          <div class="icon"> <i> <a href="#"><img src="icon/facebook.png"></a></i> <i> <a href="#"><img src="icon/Twitter.png"></a></i> <i> <a href="#"><img src="icon/linkedin.png"></a></i> <i> <a href="#"><img src="icon/google+.png"></a></i> </div>
+          <div class="icon">
+             <!-- <i> <a href="#"><img src="icon/facebook.png"></a></i> <i>  -->
+            <!-- <a href="#"><img src="icon/Twitter.png"></a></i> <i> <a href="#"><img src="icon/linkedin.png"></a></i> <i> <a href="#"><img src="icon/google+.png"></a></i>  -->
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-          <div class="contact"> <a href="#">Contact :  +71  78908540</a> </div>
+          <!-- <div class="contact"> <a href="#">Contact :  +71  78908540</a> </div> -->
         </div>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section bg-[#0F203C]">
         <div class="full">
           <div class="center-desk">
-            <div class="logo"> <a href="index.html"><img src="images/logo.jpg" alt="#"></a> </div>
+            <div class="logo flex justify-center items-center bg-[#0F203C]">
+               <a href="#">
+                <img class="w-32 h-16 md:m-8 mt-4 md:mt-0" src="main.jpeg" alt="#">
+              </a>
+             </div>
           </div>
         </div>
       </div>
@@ -68,12 +76,11 @@
           <div class="limit-box">
             <nav class="main-menu">
               <ul class="menu-area-main">
-                <li class="active"> <a href="index.html">Home</a> </li>
-                <li> <a href="aboutus.html">About</a> </li>
-                <li> <a href="Currency.html"> Currency</a> </li>
-                <li> <a href="Team.html">Team</a> </li>
-                <li> <a href="contact.html">Contact us</a> </li>
-                <li> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
+                <li > <a  href="#home">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+               
+                <li> <a href="#team">Team</a> </li>
+                
               </ul>
             </nav>
           </div>
@@ -91,86 +98,84 @@
         <!-- state banner -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active"> <img class="first-slide" src="images/banner.jpg" alt="First slide"> </div>
-            <div class="carousel-item"> <img class="second-slide" src="images/banner.jpg" alt="Second slide"> </div>
-            <div class="carousel-item"> <img class="third-slide" src="images/banner.jpg" alt="Third slide"> </div>
+            <div class="carousel-item active"> <img class="first-slide" src="main.jpeg" alt="First slide"> </div>
+            
           </div>
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <i class='fa fa-angle-right'></i></a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <i class='fa fa-angle-left'></i></a> </div>
+          
+        </div>
         <!-- end banner --> 
       </div>
-      <div class="col-md-6">
-        <div class="full-slider_cont">
-          <h1>World ‘s popular<br>
-            <span class="dark_brown">Bitcoin company</span></h1>
-          <p>It is a long established fact that a reader will be distracted by the <br>
-            readable content of a page when looking at its layout. The point <br>
-            of using Lorem Ipsum is that it has a more-or-less normal dis<br>
-            tribution of letters, as opposed to using 'Content here, content<br>
-            here', making it look like readable English. Many desktop<br>
-            publishing packages and more-or-less normal distribution of <br>
-            letters, as opposed to using 'Content here, content here', making<br>
-            it look like readable English. Many desktop publishing packages and </p>
-          <div class="button_section"> <a class="main_bt" href="#">Exchange</a> <a class="main_bt" href="#">About Us</a> </div>
+      <div id="home" class="col-md-6 bg-[#0F203C]">
+        <div class="full-slider_cont bg-[#0F203C]">
+          <h1 class="text-white">Introducing<br>
+            <span class="dark_brown text-[#E3384A]">Red Candles</span></h1>
+          <p class="text-white">Red Candles (RC) is a dynamic and innovative cryptocurrency designed to provide a secure and transparent financial ecosystem for users worldwide. Inspired by the fluctuations of traditional financial markets, Red Candles offers a unique approach to crypto investment.
+            <br>
+            With a blockchain-based platform powered by cutting-edge technology, Red Candles aims to mitigate volatility by offering a stablecoin counterpart, providing users with a reliable store of value. The coin's name, 'Red Candles,' symbolizes its commitment to shedding light on the often turbulent world of cryptocurrency trading.
+          <div class="button_section"> <a class="main_bt rounded-xl bg-[#E3384A]" href="#">Get Started</a> <a class="main_bt rounded-xl bg-[#E3384A]" href="#about">About Us</a> </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 <!-- Currency -->
-<div class="Currency">
+<div id="feature" class="Currency bg-[#0F203C]">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2>NEED TO TAKE CARE OF YOUR <strong class="cur">CURRENCY INVESTMENTS</strong></h2>
-          <span><img src="images/boder.png" alt="img"/> </span> </div>
+          <h2 class="text-white font-semibold"> <strong class="font-semibold cur text-[#E3384A]">Red Candles's </strong>Tokenomics</h2>
+          <span><img src="images/boder.png" class="md:ml-96" alt="img"/> </span> </div>
       </div>
     </div>
     <div class="row">
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <div class="three-box">
-          <figure><img src="images/1.jpg" alt="img"/></figure>
-          <div class="Bitcoin"> <i><img src="images/dollar.png" alt="img"/></i>
-            <h3>Bitcoin Transaction</h3>
-            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud lit esse </p>
+          <figure><img src="bg.jpg" alt="img"/></figure>
+          <div class="Bitcoin p-4 rounded-xl"> <i><img src="main.jpeg" class="rounded-full w-16 h-16" alt="img"/></i>
+            <h3>Stability</h3>
+            <p>Red Candles employs a sophisticated algorithm to maintain a stable value, reducing the risk associated with traditional cryptocurrencies. </p>
           </div>
-          <a class="read-more" href="#">Read More</a> </div>
+          <!-- <a class="read-more" href="#">Read More</a>  -->
+        </div>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <div class="three-box">
-          <figure><img src="images/2.jpg" alt="img"/></figure>
-          <div class="Bitcoin"> <i><img src="images/dollar.png" alt="img"/></i>
-            <h3>Bitcoin Exchange</h3>
-            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+          <figure><img src="bg2.jpg" alt="img"/></figure>
+          <div class="Bitcoin p-4 rounded-xl"> <i><img src="main.jpeg" class="rounded-full w-16 h-16" alt="img"/></i>
+            <h3>Transparency</h3>
+            <p>Built on a transparent blockchain, users can easily verify transactions and holdings, ensuring trust and security.</p>
           </div>
-          <a class="read-more" href="#">Read More</a> </div>
+          <!-- <a class="read-more" href="#">Read More</a>  -->
+        </div>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <div class="three-box">
-          <figure><img src="images/3.jpg" alt="img"/></figure>
-          <div class="Bitcoin"> <i><img src="images/dollar.png" alt="img"/></i>
-            <h3>Bitcoin Investment</h3>
-            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+          <figure><img src="bg3.jpg" alt="img"/></figure>
+          <div class="Bitcoin p-4 rounded-xl "> <i><img src="main.jpeg" class="rounded-full w-16 h-16" alt="img"/></i>
+            <h3>Decentralization</h3>
+            <p>Red Candles operates on a decentralized network, giving users full control over their assets without reliance on intermediaries. </p>
           </div>
-          <a class="read-more" href="#">Read More</a> </div>
+          <!-- <a class="read-more" href="#">Read More</a>  -->
+        </div>
       </div>
     </div>
   </div>
 </div>
 <!-- end Currency --> 
 <!--state abouts -->
-<div class="abouts"> <div class="abouts-bg">
+<div class="abouts bg-[#0F203C]" id="about"> <div class="abouts-bg">
   <div class="container">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="abouts-us">
-          <h3>About Us <strong class="cur">our company</strong></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani</p>
+          <h3 class="text-white">About <strong class="cur text-[#E3384A]">Red Candles</strong></h3>
+          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani</p>
         </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="abouts-us">
-          <figure><img src="images/about.png" alt="img"/></figure>
+          <figure><img src="wp10563963.jpg" alt="img"/></figure>
         </div>
       </div>
     </div>
