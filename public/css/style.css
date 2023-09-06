@@ -240,13 +240,13 @@ button {
 	font-weight: 600;
 }
 .main_bt {
-	background: #000;
+	background: #0F203C;
 	color: #fff;
 	padding: 10px 60px 10px 60px;
 	float: left;
 	font-size: 15px;
 	font-weight: 400;
-	border: solid #000 5px;
+	border: solid #0F203C 5px;
 	border-radius: 0;
 	margin-right: 30px;
 }
@@ -257,7 +257,7 @@ a.readmore_bt {
 }
 .main_bt:hover, .main_bt:focus {
 	background: #ad2101;
-	border: solid #ad2101 5px;
+	
 	color: #fff;
 }
 /**-- list icon --**/
@@ -412,7 +412,7 @@ nav.main-menu {
 	margin-left: 0;
 }
 .menu-area-main li:hover a, .menu-area-main li:focus a {
-	color: #b23011;
+	color: #E3384A;
 }
 .menu-area-main li.active a {
 	color: #b23011;
@@ -1555,7 +1555,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 	color: #fff;
 }
 .service .world {
-	background-color: #ad2100;
+	background-color: #E3384A;
 	text-align: center;
 	padding: 40px 40px;
 	margin-top: 30px;
@@ -1612,7 +1612,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 	padding-bottom: 0px;
 }
 .experts .experts-box {
-	background-color: #060402;
+	background-color: #0F203C;
 }
 .experts .experts-box {
 	padding-top: 50px;
