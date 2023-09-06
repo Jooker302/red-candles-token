@@ -1,0 +1,347 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .main-menu ul>li a {
+         padding: 20px 20px 20px;
+    }
+     .header-search {
+         padding: 15px 0px;
+    }
+}
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 599px) and (max-width: 767px) {
+     .logo {
+         text-align: center;
+    }
+     .cart-content-right {
+         padding-bottom: 5px;
+    }
+     .mg {
+         margin: 0px 0px;
+    }
+     .menu-area-main {
+         height: 256px;
+         overflow-y: auto;
+    }
+     .megamenu>.row [class*="col-"] {
+         padding: 0px;
+    }
+     .menu-area-main .megamenu .men-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .women-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .el-cat {
+         padding: 0px 15px;
+    }
+     .mean-container .mean-nav ul li a.mean-expand {
+         height: 19px;
+    }
+     .category-box.women-box {
+         display: none;
+    }
+     .cart-box {
+         display: inline-block;
+         margin: 0px 30px;
+    }
+     .wish-box {
+         float: none;
+         margin: 0px 30px;
+         display: inline-block;
+    }
+     .menu-add {
+         display: none;
+    }
+     .category-box {
+         display: none;
+    }
+     .mean-container .mean-nav ul li ol {
+         padding: 0px;
+    }
+     .mean-container .mean-nav ul li a {
+         padding: 10px 20px;
+         width: 94.8%;
+    }
+     .mean-container .mean-nav ul li li a {
+         width: 92%;
+         padding: 1em 4%;
+    }
+     .mean-container .mean-nav ul li li li a {
+         width: 100%;
+    }
+     .header-search {
+         padding: 15px 0px;
+    }
+     #collapseFilter.d-md-block {
+         padding: 30px 0px;
+    }
+}
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+     .cart-content-right {
+         padding-bottom: 5px;
+    }
+     .megamenu>.row [class*="col-"] {
+         padding: 0px;
+    }
+     .menu-area-main .megamenu .men-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .women-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .el-cat {
+         padding: 0px 15px;
+    }
+     .mean-container .mean-nav ul li a {
+         padding: 1em 4%;
+         width: 92%;
+    }
+     .mean-container .mean-nav ul li li a {
+         width: 90%;
+         padding: 1em 5%;
+    }
+     .mean-container .sub-full.megamenu-categories ol li a {
+         padding: 5px 0px;
+         text-transform: capitalize;
+         width: 100%;
+    }
+     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+         width: auto;
+         border: none;
+         float: none;
+    }
+     .menu-area-main {
+         height: 290px;
+         overflow-y: auto;
+    }
+     .mean-container .mean-nav ul li a.mean-expand {
+         top: 0;
+    }
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .main-menu ul > li a {
+        padding: 54px 12px 0 12px;
+    }
+     .full-slider_cont h1 {
+        font-size: 51px;
+         line-height: 61px;
+    }
+     .Currency .three-box .Bitcoin {
+        width: 253px;
+    }
+     .abouts .abouts-bg .abouts-us h3 {
+        font-size: 35px;
+    }
+     .Request-box .Register {
+        padding: 90px 39px;
+    }
+     .Request .Request-box .Register h3 {
+        font-size: 26px;
+         line-height: 35px;
+    }
+     ul.socil_link li {
+        padding-right: 20%;
+    }
+     .footer .newsletter .subscribe {
+        padding: 21px 0;
+         width: 145px;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+     .main-menu ul > li a {
+         padding: 54px 12px 0 12px;
+    }
+     .full-slider_cont h1{
+        font-size: 40px;
+         line-height: 50px;
+    }
+     .Currency .three-box .Bitcoin {
+        width: 182px !important;
+    }
+     .Currency .three-box .Bitcoin h3 {
+        font-size: 25px;
+    }
+     .experts .experts-box .experts-threebox .icon i a {
+        padding: 0px 2px;
+    }
+     .main_bt {
+        margin-right: 15px;
+         padding: 10px 41px 10px 41px;
+    }
+     .Request-box .Register {
+        padding: 52px 55px;
+    }
+     .Request .Request-box .Register h3 {
+        font-size: 16px;
+         line-height: 23px;
+    }
+     .Request .Request-box .Register p {
+        line-height: 18px;
+         font-size: 14px;
+    }
+     .Request .Request-box .Register a {
+        padding: 5px 25px;
+    }
+     .abouts .abouts-bg {
+        padding-left: 0;
+    }
+     .abouts .abouts-bg .abouts-us h3 {
+        font-size: 26px;
+         line-height: 33px;
+    }
+     .abouts-us p {
+        padding-top: 0;
+    }
+     .abouts .abouts-bg .abouts-us {
+        margin-top: 0;
+         margin-bottom: 0;
+    }
+     ul.socil_link li {
+        padding-right: 15%;
+    }
+     .footer .newsletter .subscribe {
+        padding: 21px 0;
+         width: 113px;
+    }
+}
+ @media (min-width: 576px) and (max-width: 767px){
+     .mean-container .mean-bar {
+        margin-top: 40px;
+    }
+     .mean-last {
+         display: none;
+    }
+     .experts .experts-box .experts-threebox {
+        margin-bottom: 20px;
+    }
+     .Currency .three-box {
+        margin-bottom: 20px;
+    }
+     .Currency .titlepage h2 {
+        line-height: 35px;
+         font-size: 35px;
+    }
+     .service-box {
+        margin-top: 30px;
+    }
+     .send-btn{
+        margin-top: 20px;
+    }
+     .head-top {
+         display: none;
+    }
+     .abouts .abouts-bg {
+        margin-top: 0;
+    }
+     .abouts .abouts-bg {
+        padding-left: 0;
+    }
+     .abouts .abouts-bg .abouts-us {
+        margin-top: 0px;
+         margin-bottom: 0px;
+    }
+     .abouts .abouts-bg .abouts-us h3 {
+        font-size: 40px;
+         line-height: 40px;
+         padding-top: 0;
+    }
+     .abouts .abouts-bg .abouts-us p {
+        padding-top: 0;
+    }
+     .Request-box .Register {
+        padding: 81px 55px;
+    }
+     ul.contant_icon {
+        margin-bottom: 20px;
+    }
+    header {
+    border-top: solid #ad2100 5px
+}
+}
+ @media (max-width: 575px) {
+     .logo {
+        float: none;
+    }
+     .mean-container .mean-bar {
+        margin-top: 0;
+    }
+     .mean-last {
+        display: none;
+    }
+     .head-top {
+         display: none;
+    }
+     .full-slider_cont h1 {
+        font-size: 32px;
+         line-height: 46px;
+    }
+     .main_bt {
+        padding: 5px 24px 5px 24px;
+         margin-right: 10px;
+    }
+     .service-box {
+        margin-top: 30px;
+    }
+     .Currency .titlepage h2 {
+        line-height: 25px;
+         font-size: 24px;
+    }
+     .Currency .three-box {
+        margin-bottom: 20px;
+    }
+     .Currency .three-box .Bitcoin {
+         width: 220px;
+    }
+     .abouts .abouts-bg {
+         margin-top: 0;
+    }
+     .abouts .abouts-bg {
+         padding-left: 0;
+    }
+     .abouts .abouts-bg .abouts-us {
+        margin-top: 0px;
+         margin-bottom: 0px;
+    }
+     .abouts .abouts-bg .abouts-us h3 {
+        font-size: 23px;
+         line-height: 21px;
+         padding-top: 0;
+    }
+     .experts .experts-box .experts-threebox {
+        margin-bottom: 20px;
+    }
+     .abouts-us p {
+        padding-top: 0px;
+    }
+     .Request-box .Register {
+        padding: 50px 30px;
+    }
+     .Request .Request-box .Register h3 {
+        font-size: 13px;
+         line-height: 21px;
+    }
+     .Request .Request-box .Register p {
+        line-height: 16px;
+         font-size: 12px;
+    }
+     .Request .Request-box .Register a {
+        padding: 5px 25px;
+         margin-top: 15px;
+    }
+     .send-btn{
+        margin-top: 20px;
+    }
+     .footer .newsletter .subscribe {
+        width: 120px;
+         padding: 21px 0;
+    }
+     ul.contant_icon {
+        margin-bottom: 20px;
+    }
+    header {
+    border-top: solid #ad2100 5px
+}
+}
+ 
